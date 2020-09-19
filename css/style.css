@@ -143,7 +143,7 @@ a:hover, a:active {
 }
 .page-top .nav a.current {
   color: #5A5A5A;
-  padding-bottom: 22px;
+  /* padding-bottom: 22px; */
   border-bottom: 1px solid #5A5A5A;
 }
 .page-top .information {
@@ -184,7 +184,7 @@ a:hover, a:active {
 }
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 240px;
+  padding-top: 100px;
 }
 .sidebar .logo-title .description {
   font-size: 14px;
