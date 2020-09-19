@@ -244,6 +244,7 @@ html {
                     font-size: 1.1rem; }
 
                     img {
+                      border-radius: 50%;
                       max-width: 100%;
                       height: auto; }
 
