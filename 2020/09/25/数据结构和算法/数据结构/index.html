@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="iceream"><title>数据结构 · iceream</title><meta name="description" content="数据结构是什么：数据结构是计算机对数据的组织形式
+有啥用：降低算法的时间复杂度和空间复杂度
+常见数据结构线性数据结构：数组、链表、栈、队列   Array、Linked List、Stack、Queue
+非线性数据结构：树、堆、散列表、图   Tree、heap、Hashing、Graph
+数组数组"><meta name="keywords" content="iceream's blog"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/jquery.js"></script><meta name="generator" content="Hexo 5.2.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/avatar.jpeg" style="width:127px;"><h3 title=""><a href="/">iceream</a></h3><div class="description"><p>心之所愿，无事不成。<br> Nothing is impossible to a willing heart.</p></div></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/iceream"><i class="fa fa-github"></i></a></li></ul><div class="footer"><div class="p"> <span>© 2019 - 2020 </span><i class="fa fa-star"></i><span> iceream</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><a href="https://github.com/mrcore/hexo-theme-Anatole-Core" target="_blank">Anatole-Core  </a></div><div class="beian"><a href="http://www.beian.miit.gov.cn/" target="_blank">桂ICP备19009961号</a><span style="height:10px;margin-left: 10px;"></span></div></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/about">关于</a></li><li><a href="/guestbook">留言</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>数据结构</a></h3></div><div class="post-content"><h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><pre><code>是什么：数据结构是计算机对数据的组织形式
+有啥用：降低算法的时间复杂度和空间复杂度</code></pre>
+<h2 id="常见数据结构"><a href="#常见数据结构" class="headerlink" title="常见数据结构"></a>常见数据结构</h2><pre><code>线性数据结构：数组、链表、栈、队列   Array、Linked List、Stack、Queue
+非线性数据结构：树、堆、散列表、图   Tree、heap、Hashing、Graph</code></pre>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><pre><code>数组是将相同类型的元素存储于连续内存空间的数据结构、其长度不可变。
+关键词：相同类型、连续空间、长度不可变
+
+我们常用的是 可变数组
+
+数组
+
+array       2        3       5        6       7
+索引        0        1       2       3       4
+地址(连续)  0x00    0x01    0x02    0x03    0x04</code></pre>
+<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><pre><code>链表以节点为单位、每个元素都是一个独立的对象，在内存空间中是非连续的。链表的节点对象具有两个成员变量：值 val，后续节点引用 next</code></pre>
+<p><a target="_blank" rel="noopener" href="https://juejin.im/entry/6844903498362912775">JS中的链表</a></p>
+<h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><pre><code>栈是一种 先入后出 的抽象数据结构，可以使用链表实现。
+可以想象成一桶羽毛球
+入栈 push，出站 pop</code></pre>
+<h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><pre><code>队列是一种 先入先出 的抽象数据结构，可使用链表实现。</code></pre>
+<h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><pre><code>树是一种非线性数据结构，根据子节点数量可分为 二叉树、多叉树
+最顶点节点称为 根节点 root
+每个节点包含三个成员变量：值 val、左子节点 left、右子节点 right</code></pre>
+<h2 id="图"><a href="#图" class="headerlink" title="图"></a>图</h2><pre><code>图是一种非线性数据结构，由节点（顶点）vertex，和边 edge 组成，每条边连接一对节点。
+根据边的方向有无可分为 有向图 无向图</code></pre>
+<h2 id="散列表"><a href="#散列表" class="headerlink" title="散列表"></a>散列表</h2><pre><code>散列表是一种非线性数据结构，通过利用 Hash 函数将制定的 键 key 映射至对应的值 value，以实现快速的元素查找。</code></pre>
+<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><pre><code>堆是一种基于 完全二叉树 的数据结构，可使用数组实现。
+以堆为原理的排序算法称为 堆排序；
+基于堆实现的数据结构为 优先队列；
+堆分为 大顶堆、小顶堆，大（小）顶堆：任意节点的值不大（小）于其父节点的值。
+
+完全二叉树：设二叉树的深度为k，若二叉树除k层外（1 到 k-1 层）的节点达到最大个数，且处于第k层的所有元素都连续集中在在左边，则该二叉树称为完全二叉树。</code></pre>
+<p>、</p>
+</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2020-09-25</span><i class="fa fa-tag"></i><a class="tag" href="/tags/数据结构和算法/" title="数据结构和算法">数据结构和算法 </a><span class="leancloud_visitors"></span></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="" onclick="javascript:join_favorite()" ref="sidebar"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2020/09/25/数据结构和算法/数据结构/,iceream,数据结构,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2020/09/23/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/" title="matplotlib基础使用">下一篇</a></li></ul></div><script src="/js/visitors.js"></script><a id="comments"></a><div id="vcomments" style="margin:0 30px;"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//cdn.jsdelivr.net/gh/xcss/valine@latest/dist/Valine.min.js"></script><script>var valine = new Valine({
+  el:'#vcomments',
+  notify:false || false, 
+  verify:false|| false, 
+  app_id:'jv8WLMTSiwToMqWdkAIkJFQi-gzGzoHsz',
+  app_key:'UGPsPn474Uq8GibdkeLTtrs3',
+  placeholder:'念念不忘，必有回响...',
+  path: window.location.pathname,
+  serverURLs: 'https://jv8wlmts.lc-cn-n1-shared.com',
+  visitor:true,
+  recordIP:true,
+  avatar:'mp'
+})</script></div></div></div></div><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/add-bookmark.js"></script><script src="/js/baidu-tongji.js"></script></body></html>
